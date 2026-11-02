@@ -1,4 +1,4 @@
-# ChinaWarlords（民國史詩，中文名暫定）/ Potato Engine 文檔
+# ChinaWarlords（中華史詩）/ Potato Engine 文檔
 
 專案名稱與既有技術識別方式詳見[專案名稱說明](./PROJECT_IDENTITY.md)。
 
@@ -21,7 +21,7 @@
 - [遊戲主畫面 UI/UX 設計](./architecture/GAME_UI_UX_DESIGN.md) — 畫面流程規劃與 Epic 13 工項
 
 ### 敘事
-- [《民國史詩》敘事聖經](./narrative/REPUBLICAN_EPIC_STORY_BIBLE.md) — 正史為主、神話為輔；含 24 章主線和黃花崗首個故事切片
+- [《中華史詩》敘事聖經](./narrative/REPUBLICAN_EPIC_STORY_BIBLE.md) — 正史為主、神話為輔；含 24 章主線和黃花崗首個故事切片
 - [策略與治平治理框架](./narrative/STRATEGIC_GOVERNANCE_FRAMEWORK.md) — 兩篇新文章的玩法映射與驗收原則
 
 ### 報告與研究
@@ -42,4 +42,4 @@
 
 ---
 
-**🥔 ChinaWarlords（民國史詩，中文名暫定）文檔**
+**🥔 ChinaWarlords（中華史詩）文檔**

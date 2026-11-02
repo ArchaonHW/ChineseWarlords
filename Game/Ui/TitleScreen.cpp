@@ -31,7 +31,7 @@ TitleLayout BuildTitleLayout(const TitleInput& in) {
     lay.h = in.h;
 
     // Masthead band: the presentation layer paints ChinaWarlords,
-    // 民國史詩, and the subtitle inside this rect.
+    // 中華史詩, and the subtitle inside this rect.
     lay.widgets.push_back(
         {TitleCell::Masthead, 0, in.h / 12, in.w, 96, true, 0});
 

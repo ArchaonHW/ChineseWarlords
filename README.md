@@ -1,8 +1,8 @@
-# ChinaWarlords（民國史詩，中文名暫定）
+# ChinaWarlords（中華史詩）
 
 **回合制 RPG × 即時戰略的 hybrid 戰術遊戲，執行於自研 PotatoEngine（C++20）**
 
-英文名稱：**ChinaWarlords** · 中文名稱：**民國史詩（暫定）**。`MingGoRTS`
+英文名稱：**ChinaWarlords** · 中文名稱：**中華史詩**。`MingGoRTS`
 是舊 GitHub 倉庫名稱與部分沿用中的技術識別；產品名稱以本節為準。
 
 玩家在戰鬥中不點選單位——而是**書寫**單位。每場戰鬥前編排 doctrine 卡
@@ -165,7 +165,7 @@ clone 後不會出現；僅供持有該目錄的開發環境參考）：
 
 ---
 
-**ChinaWarlords · 民國史詩 — 以筆代兵，以治為勝**
+**ChinaWarlords · 中華史詩 — 以筆代兵，以治為勝**
 
 *狀態：實作進行中 · 四層架構（Engine/Gameplay/Campaign/Game）已落地 ·
 44 項 CTest 已註冊（含 headless 玩法測試）· CI（syntax/security/build/ctest/mirror）運作中*

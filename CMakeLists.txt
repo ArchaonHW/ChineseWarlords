@@ -490,7 +490,7 @@ set_target_properties(FakeCheatModule PROPERTIES OUTPUT_NAME "FakeCheat" PREFIX 
 # add_executable(AIAgentGUIExample Examples/AIAgentGUIExample.cpp)
 # target_link_libraries(AIAgentGUIExample PotatoEngine)
 
-# ==== ChinaWarlords 遊戲層（民國史詩，中文名暫定） ====
+# ==== ChinaWarlords 遊戲層（中華史詩） ====
 # Gameplay：純模擬函式庫——headless、無 Rendering/GUI/Platform-GL 依賴
 # （禁入清單由 scripts/CheckGameplayDeps.ps1 檢查）
 file(GLOB_RECURSE GAMEPLAY_SOURCES CONFIGURE_DEPENDS "Gameplay/*.cpp")

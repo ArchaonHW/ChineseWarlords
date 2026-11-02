@@ -1,4 +1,4 @@
-# ChinaWarlords（民國史詩，中文名暫定）文檔索引
+# ChinaWarlords（中華史詩）文檔索引
 
 專案名稱與既有技術識別方式詳見[專案名稱說明](./PROJECT_IDENTITY.md)。
 
@@ -64,4 +64,4 @@ docs/
 
 ---
 
-**🥔 ChinaWarlords（民國史詩，中文名暫定）文檔索引** — 最後更新:2026-10-18
+**🥔 ChinaWarlords（中華史詩）文檔索引** — 最後更新:2026-11-02
