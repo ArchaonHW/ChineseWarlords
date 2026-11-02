@@ -66,5 +66,5 @@ C++20 game engine (PotatoEngine) + greenfield game layer (MingGoRTS). Planning a
 
 ## Product identity
 
-- The game's English name is ChinaWarlords; its provisional Chinese name is 民國史詩.
+- The game's English name is ChinaWarlords; its Chinese name is 中華史詩. 民國史詩 was the former provisional title.
 - MingGoRTS is the former repository slug and remains a legacy technical identifier. Keep existing paths, namespaces, and build target names stable unless a separate migration is requested.

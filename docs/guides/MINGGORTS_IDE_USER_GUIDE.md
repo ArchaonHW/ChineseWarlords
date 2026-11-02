@@ -28,7 +28,7 @@ MingGoRTS IDE initialized successfully
 
 --- IDE Components Initialized ---
 Workspace: C:\HWC\MingGoRTS
-Project: ChinaWarlords (民國史詩)
+Project: ChinaWarlords (中華史詩)
 AI Assistance: Enabled
 Multi-Agent: Enabled
 ```

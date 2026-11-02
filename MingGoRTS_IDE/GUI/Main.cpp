@@ -64,7 +64,7 @@ int main(int argc, char** argv) {
     MingGoRTSIDE::IDEConfig config;
     // --workspace <dir> / MINGGORTS_WORKSPACE / exe-relative repo root
     config.workspacePath = MingGoRTSIDE::ResolveWorkspacePath(argc, argv);
-    config.projectName = "ChinaWarlords (民國史詩)";
+    config.projectName = "ChinaWarlords (中華史詩)";
     config.enableAIAssistance = true;
     config.enableMultiAgent = true;
     

@@ -3,11 +3,11 @@
 ## Official project names
 
 - English name: **ChinaWarlords**
-- Chinese name: **民國史詩（暫定）**
-- Combined display form: **ChinaWarlords — 民國史詩**
+- Chinese name: **中華史詩**
+- Combined display form: **ChinaWarlords — 中華史詩**
 
-The Chinese name is provisional and may change after the game's historical
-scope and public-facing materials are finalized.
+The former provisional Chinese title was **民國史詩**. Current game-facing
+materials use **中華史詩**.
 
 ## Existing technical identifiers
 
@@ -15,7 +15,7 @@ scope and public-facing materials are finalized.
 folder examples, generated planning-artifact paths, IDE product name, source
 directories, C++ namespaces, and some build identifiers. These are
 implementation or historical identifiers; use **ChinaWarlords** and
-**民國史詩（暫定）** for the game itself.
+**中華史詩** for the game itself.
 
 `PotatoEngine` remains the engine name. The repository currently lives at
 `github.com/ArchaonHW/ChinaWarlords` (formerly
@@ -24,9 +24,9 @@ implementation or historical identifiers; use **ChinaWarlords** and
 ## Writing and UI
 
 - Use `ChinaWarlords` as the English game name.
-- Use `民國史詩` as the Chinese display name; mark it as provisional in project
-  documentation until it is finalized.
+- Use `中華史詩` as the Chinese display name.
 - Keep historical completion and audit reports as records of the names and
-  paths used when those reports were written.
+  paths used when those reports were written; identify `民國史詩` as the former
+  provisional title where needed.
 - Use the legacy `MingGoRTS` spelling only when referring to an existing path,
   repository URL, identifier, or historical name.

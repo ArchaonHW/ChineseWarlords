@@ -1,4 +1,4 @@
-# ChinaWarlords（民國史詩，中文名暫定）敘事聖經
+# ChinaWarlords（中華史詩）敘事聖經
 
 > 狀態：敘事方向草案；使用者已指定主、輔劇情優先序。歷史事件細節仍須在逐章製作時逐項查證。
 >
@@ -135,7 +135,7 @@
 
 ### 使用者提供的劇情企劃
 
-- [主線：《MingGoRTS：民國史詩》革命史實版・劇情重製企劃](https://chatgpt.com/s/t_6ad0ae0d3748819185291b5d86e70cb4)
+- [主線劇情來源（原始對話標題：《MingGoRTS：民國史詩》）](https://chatgpt.com/s/t_6ad0ae0d3748819185291b5d86e70cb4)
 - [輔線：The Epic of the Republic](https://chatgpt.com/s/t_6ad0a58d825881919cad78394af13fe0)
 
 ### 歷史查證起點

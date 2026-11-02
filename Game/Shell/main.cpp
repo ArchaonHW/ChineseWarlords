@@ -171,7 +171,7 @@ int main() {
     }
 
     Game::GlShell shell;
-    if (!shell.Init(960, 600, "ChinaWarlords — 民國史詩")) {
+    if (!shell.Init(960, 600, "ChinaWarlords — 中華史詩")) {
         std::fprintf(stderr, "shell init failed\n");
         return 1;
     }
@@ -302,7 +302,7 @@ int main() {
             ImGui::SetCursorPos({410, 112});
             ImGui::TextDisabled("ChinaWarlords");
             ImGui::SetCursorPos({330, 140});
-            ImGui::Text("民 國 史 詩");
+            ImGui::Text("中 華 史 詩");
             ImGui::SetCursorPos({360, 170});
             ImGui::TextDisabled("至聖者無戰 · 治平者無勝");
 
