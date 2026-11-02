@@ -26,7 +26,7 @@ C++20 game engine (PotatoEngine) + greenfield game layer (MingGoRTS). Planning a
 - Build (Windows/MSVC): `BuildEngine.bat`, or `cmake -B build -G "Visual Studio 17 2022" -A x64` then `cmake --build build --config Release`.
 - MinGW builds: guard toolchain specifics with `WIN32 AND NOT MSVC`; verify both MSVC and MinGW before calling work done.
 - Build (Linux, g++): `sudo apt-get install cmake g++ libglfw3-dev libgl1-mesa-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libxkbcommon-dev`, then `cmake -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j`. CI (`pre-commit-checks.yml`, ubuntu-24.04) does exactly this.
-- Tests: CTest, gated by the `POTATO_TESTS` option (default ON). `cd build && ctest --output-on-failure` (add `-C Release` on MSVC). 46 tests on Linux and 47 on Windows (verified 2026-10-24 by MSVC configure and `ctest -N`; Windows adds `gameplay_dep_guard`). The suite includes `potato_test_*`, `potato_record_emit`/`potato_verify_cli`, and engine tests such as `RenderingServerTest`/`LLMToolBridgeTest`. Sources live in `Examples/`.
+- Tests: CTest, gated by the `POTATO_TESTS` option (default ON). `cd build && ctest --output-on-failure` (add `-C Release` on MSVC). 49 tests on Linux and 50 on Windows (verified 2026-11-02 by MSVC configure and `ctest -N`; Windows adds `gameplay_dep_guard`). The suite includes `potato_test_*`, `potato_record_emit`/`potato_verify_cli`, and engine tests such as `RenderingServerTest`/`LLMToolBridgeTest`. Sources live in `Examples/`.
 - Machine-specific paths: none hard-coded. IDE workspace = `--workspace <dir>` → `MINGGORTS_WORKSPACE` → repo root found upward from the exe/cwd. CJK fonts come from `Platform/SystemFonts.h` (override with `POTATO_CJK_FONT` / `POTATO_CJK_FONT_BOLD`).
 - Environment (Windows dev box): `python`, `uv` may not be on PATH — don't script around them.
 
@@ -52,7 +52,7 @@ C++20 game engine (PotatoEngine) + greenfield game layer (MingGoRTS). Planning a
 
 - Toolchain installed via winget: CMake 4.4.4, Git 2.55.0, VS 2022 Build Tools (MSVC 19.44 + Windows SDK). Note: freshly spawned shells may need a PATH refresh (`[Environment]::GetEnvironmentVariable("Path","Machine")`) to see `cmake`/`git`.
 - Configure+build works with the default `POTATO_BUILD_GUI=ON` — FetchContent clones glfw 3.3.8 / glad v2.0.4 fine (ASCII path, git+network present).
-- Tests DO run under CTest: `ctest -C Release` in `build/` — (2026-10-12 count; now 41 on Linux / 42 on Windows) (potato_test_* + potato_record_emit/potato_verify_cli + gameplay_dep_guard). `gameplay_dep_guard` requires `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` (now set).
+- Tests DO run under CTest: `ctest -C Release` in `build/` — 49 on Linux / 50 on Windows (verified 2026-11-02; potato_test_* + potato_record_emit/potato_verify_cli + gameplay_dep_guard). `gameplay_dep_guard` requires `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` (now set).
 - All targets build clean under MSVC as of 2026-10-12 (legacy AI/Security/IDE modules were repaired: undeclared members, stale duplicate tail in AIAgentSystem.cpp, missing class declarations, unsafe-C calls replaced with `_s` variants).
 - VS installer requested a reboot to finish; builds work without it, but reboot once when convenient.
 
